@@ -1,0 +1,52 @@
+    header {
+        background-color: white;
+
+        .top-header{
+            background-color: $brand_main_color;
+            color: white;
+            display: flex;
+            justify-content: end;
+            padding: 3px 0;
+            font-size: 0.7rem;
+
+            ul{
+                display: flex;
+
+                li{
+                    margin-right: 10px;
+                }
+            }
+        }
+      
+          .header-container{
+              width: 70%;
+              margin: 0 auto;
+              padding: 0.5rem 2rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 100px ;
+      
+              .logo{
+                  margin-right: 100px;
+                  img{
+                      width: 50px;
+                   }
+              }
+              nav{
+                  ul{
+                      display: flex;
+      
+                      li{
+                          margin-right: 1rem;
+                          font-size: 0.8rem;
+      
+                          .bottom-line{
+                             color: $brand_main_color;
+                             border-bottom: 3px solid $brand_main_color;
+                          }
+                      }
+                  }
+              }
+          }
+       }
