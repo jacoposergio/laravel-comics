@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/products', function () {
 
@@ -23,4 +23,4 @@ Route::get('/products', function () {
 //    dd($comics_array);
 
     return view('products');
-});
+})->name('products');

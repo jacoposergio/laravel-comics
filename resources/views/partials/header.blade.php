@@ -11,13 +11,21 @@
     </div>
         <nav>
             <ul>
-            <li>link</li>
-            <li>link</li>
-            <li>li  nk</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
+                <li>
+                    <a href="{{route('products')}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{route('products')}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{route('products')}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{route('products')}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{route('products')}}">Home</a>
+                </li>
             </ul>
         </nav>    
     </div>

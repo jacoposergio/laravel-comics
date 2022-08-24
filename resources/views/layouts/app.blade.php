@@ -13,6 +13,8 @@
     
     <main>
         @yield('main_content')
-    </main>  
+    </main> 
+    
+    @include('partials.footer')
 </body>
 </html>
