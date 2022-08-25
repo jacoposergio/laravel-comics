@@ -18,7 +18,7 @@ Route::get('/', function () {
 
     // $comics_all = [];
 
-    return view('home');
+    return view('home', compact("comics_array"));
 })->name('home');
 
 Route::get('/products', function () {
