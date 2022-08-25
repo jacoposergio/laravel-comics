@@ -75,9 +75,6 @@ header .header-container nav ul li .bottom-line {
   border-bottom: 3px solid #0c7cec;
 }
 
-.jumbo-cards-container {
-  background-color: black;
-}
 .jumbo-cards-container .jumbotron {
   height: 300px;
 }
