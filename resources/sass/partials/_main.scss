@@ -50,13 +50,30 @@
   }
 
   .comics-wrapper{
+    width: 70%;
+    margin: 50px auto 0 auto;
     background-color: red;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
-        .comics-card{
-            background-color: green;
-            width: calc((100% / 3) - 10px);
+    .comics-card {
+        width: calc((100% / 6) - 10px);
+        margin: 5px;
+        text-align: center;
+
+        .img-container{
+            height: 100px;
+            background-color: black;
+            overflow-y: hidden;
+        }
+    
+        h3 {
+            color: white;
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 0.5rem 0;
+            }
         }
 
-  }
+    }

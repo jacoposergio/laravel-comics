@@ -12,10 +12,15 @@
            </div>
         </div>
         <div class="comics-wrapper">
-
+            @foreach ($comics_array as $comic)
              <div class="comics-card">
-                 comics test
+                 <div class="img-container">
+                    <img src=""{{ $comic['thumb'] }}"" alt="">
+                 </div>
+                 <h3>batmanz</h3>
              </div>
+             @endforeach
+             
           </div>
         
 
