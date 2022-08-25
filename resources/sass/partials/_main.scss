@@ -48,3 +48,15 @@
             }
         }
   }
+
+  .comics-wrapper{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+
+        .comics-card{
+            background-color: green;
+            width: calc((100% / 3) - 10px);
+        }
+
+  }

@@ -10,9 +10,15 @@
                    <img src="{{asset('img/jumbotron.jpg')}}" alt="jumbotron">
                </div>
            </div>
-           <div class="comics-list">
-              
-           </div>
+        </div>
+        <div class="comics-wrapper">
+
+             <div class="comics-card">
+                 comics test
+             </div>
+          </div>
+        
+
            <div class="load-more">
                <a href="#">LOAD MORE</a>
            </div>

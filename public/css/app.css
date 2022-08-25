@@ -115,6 +115,16 @@ header .header-container nav ul li .bottom-line {
   font-weight: 500;
 }
 
+.comics-wrapper {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comics-wrapper .comics-card {
+  background-color: green;
+  width: calc(33.3333333333% - 10px);
+}
+
 body {
   background-color: lightblue;
 }
