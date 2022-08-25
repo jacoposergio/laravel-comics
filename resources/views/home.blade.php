@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('main_classes')
+    black_bg
+@endsection
+
 @section('main_content')
 
 @include('components.jumbotron')

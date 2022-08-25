@@ -1,6 +1,9 @@
+main{
+    &.black_bg {
+        background-color: black;
+      } 
+          
 .jumbo-cards-container{
-    // background-color: black;
-    
 
         .jumbotron{
             height: 300px;
@@ -77,3 +80,4 @@
         }
 
     }
+}

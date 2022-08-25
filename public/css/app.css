@@ -20,7 +20,6 @@ a {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(140, 144, 148); /*test test test */
 }
 
 .container {
@@ -75,15 +74,18 @@ header .header-container nav ul li .bottom-line {
   border-bottom: 3px solid #0c7cec;
 }
 
-.jumbo-cards-container .jumbotron {
+main.black_bg {
+  background-color: black;
+}
+main .jumbo-cards-container .jumbotron {
   height: 300px;
 }
-.jumbo-cards-container .jumbotron .current-series {
+main .jumbo-cards-container .jumbotron .current-series {
   position: relative;
   width: 70%;
   margin: 0 auto;
 }
-.jumbo-cards-container .jumbotron .current-series h3 {
+main .jumbo-cards-container .jumbotron .current-series h3 {
   position: absolute;
   top: 280px;
   left: -10px;
@@ -91,20 +93,20 @@ header .header-container nav ul li .bottom-line {
   background-color: #0c7cec;
   padding: 0.5rem 1rem;
 }
-.jumbo-cards-container .jumbotron .jumbo-img {
+main .jumbo-cards-container .jumbotron .jumbo-img {
   height: 100%;
   overflow: hidden;
 }
-.jumbo-cards-container .comics-list {
+main .jumbo-cards-container .comics-list {
   margin: 2rem auto;
   width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
-.jumbo-cards-container .load-more {
+main .jumbo-cards-container .load-more {
   text-align: center;
 }
-.jumbo-cards-container .load-more a {
+main .jumbo-cards-container .load-more a {
   text-align: center;
   background-color: #0c7cec;
   display: inline-block;
@@ -114,8 +116,7 @@ header .header-container nav ul li .bottom-line {
   font-size: 0.8rem;
   font-weight: 500;
 }
-
-.comics-wrapper {
+main .comics-wrapper {
   width: 70%;
   margin: 50px auto 0 auto;
   background-color: red;
@@ -123,17 +124,17 @@ header .header-container nav ul li .bottom-line {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.comics-wrapper .comics-card {
+main .comics-wrapper .comics-card {
   width: calc(16.6666666667% - 10px);
   margin: 5px;
   text-align: center;
 }
-.comics-wrapper .comics-card .img-container {
+main .comics-wrapper .comics-card .img-container {
   height: 100px;
   background-color: black;
   overflow-y: hidden;
 }
-.comics-wrapper .comics-card h3 {
+main .comics-wrapper .comics-card h3 {
   color: white;
   font-size: 1rem;
   font-weight: 300;

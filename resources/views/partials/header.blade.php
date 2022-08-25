@@ -14,19 +14,19 @@
         <nav>
             <ul>
                 <li>
-                    <a href="{{route('products')}}">Home</a>
+                    <a href="{{route('products')}}">CHARACTERS</a>
                 </li>
                 <li>
-                    <a href="{{route('products')}}">Home</a>
+                    <a href="{{route('products')}}">COMICS</a>
                 </li>
                 <li>
-                    <a href="{{route('products')}}">Home</a>
+                    <a href="{{route('products')}}">MOVIE</a>
                 </li>
                 <li>
-                    <a href="{{route('products')}}">Home</a>
+                    <a href="{{route('products')}}">TV</a>
                 </li>
                 <li>
-                    <a href="{{route('products')}}">Home</a>
+                    <a href="{{route('products')}}">GAMES</a>
                 </li>
             </ul>
         </nav>    
