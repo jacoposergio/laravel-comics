@@ -32,18 +32,21 @@ header {
   background-color: white;
 }
 header .top-header {
+  display: flex;
+  justify-content: flex-end;
   background-color: #0c7cec;
   color: white;
-  display: flex;
-  justify-content: end;
   padding: 3px 0;
   font-size: 0.7rem;
 }
-header .top-header ul {
+header .top-header .top-header-container {
   display: flex;
 }
-header .top-header ul li {
-  margin-right: 10px;
+header .top-header .top-header-container ul {
+  display: flex;
+}
+header .top-header .top-header-container ul li {
+  margin-right: 20px;
 }
 header .header-container {
   width: 70%;
@@ -70,6 +73,49 @@ header .header-container nav ul li {
 header .header-container nav ul li .bottom-line {
   color: #0c7cec;
   border-bottom: 3px solid #0c7cec;
+}
+
+.jumbo-cards-container {
+  background-color: black;
+}
+.jumbo-cards-container .jumbotron {
+  height: 300px;
+}
+.jumbo-cards-container .jumbotron .current-series {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.jumbo-cards-container .jumbotron .current-series h3 {
+  position: absolute;
+  top: 280px;
+  left: -10px;
+  color: white;
+  background-color: #0c7cec;
+  padding: 0.5rem 1rem;
+}
+.jumbo-cards-container .jumbotron .jumbo-img {
+  height: 100%;
+  overflow: hidden;
+}
+.jumbo-cards-container .comics-list {
+  margin: 2rem auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jumbo-cards-container .load-more {
+  text-align: center;
+}
+.jumbo-cards-container .load-more a {
+  text-align: center;
+  background-color: #0c7cec;
+  display: inline-block;
+  color: white;
+  padding: 0.3rem 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 body {

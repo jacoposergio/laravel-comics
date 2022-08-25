@@ -1,14 +1,13 @@
 @extends('layouts.app')
 
 @section('main_content')
-   <section>
          <div class="jumbo-cards-container">
            <div class="jumbotron">
                <div class="current-series">
                    <h3>CURRENT SERIES</h3>
                </div>
                <div class="jumbo-img">
-                   <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
+                   immagine
                </div>
            </div>
            <div class="comics-list">
@@ -18,5 +17,4 @@
                <a href="#">LOAD MORE</a>
            </div>
          </div>
-   </section>
 @endsection

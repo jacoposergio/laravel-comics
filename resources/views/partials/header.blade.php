@@ -1,9 +1,11 @@
 <header>
     <div class="top-header">
-        <ul>
-            <li>DC POWER VISA</li>
-            <li>DC ADDITIONAL SITE</li>
-        </ul>
+        <div class="top-header-container">
+            <ul>
+                <li>DC POWER VISA</li>
+                <li>DC ADDITIONAL SITE</li>
+            </ul>
+        </div>
     </div>
     <div class="header-container">
         <div class="logo">
